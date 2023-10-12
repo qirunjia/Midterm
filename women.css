@@ -194,6 +194,8 @@ footer {
 .box-row {
     display: flex;       
     justify-content: space-evenly; 
+    padding-bottom: 50px;
+    padding-top: 25px;
 }
 
 @media screen and (max-width: 1000px) {

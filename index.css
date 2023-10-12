@@ -120,7 +120,7 @@ a {
   vertical-align: middle;
 }
 
-.boxs div {
+.boxes div {
   cursor: pointer;
   text-align: center;
   width: 400px;
@@ -225,7 +225,7 @@ footer {
     vertical-align: middle;
   }
 
-  .boxs div {
+  .boxes div {
     text-align: center;
     width: 400px;
     margin-bottom: 10px;
@@ -235,6 +235,7 @@ footer {
     background-color: #986B47;
     color: white;
     font-size: 20px;
+
   }
   .footer-container {
     display: flex;
@@ -273,9 +274,6 @@ footer {
 
 
 
-.footer-section a:hover {
-  text-decoration: underline;
-}
 
 
 
@@ -296,4 +294,9 @@ footer {
   padding: 20px 20px;
   color: #fff;
 
+}
+.hveffect:hover,
+.hveffect:focus,
+.hveffect:active {
+    transform: scale(1.1);
 }
